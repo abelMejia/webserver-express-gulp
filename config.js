@@ -1,5 +1,3 @@
-const dev = 'dev'
-
 var $ = {
 	gulp: require('gulp'),
 	express: require('express'),
@@ -8,8 +6,27 @@ var $ = {
 	fs: require('fs'),
 	runSequence: require('run-sequence'),
 
-	server: './../server',
-	task: `./tasks`
+	server: './../server/server',
+	task: `./dev/tasks`,
+
+	dev: {	
+		dir: './dev',
+		public: {
+			dir: './dev/public',
+			img: './dev/public/img'
+		},
+		bower: './bower_components',
+	},
+
+	deploy: {
+		dir: './deploy',
+		public: {
+			dir: './deploy/public',
+			img: './deploy/public/img',
+			vendor: './deploy/public/js/vendor',
+			css: './deploy/public/css'
+		}
+	}
 
 }
 
