@@ -5,7 +5,10 @@
     $ git clone 
     $ npm install -g gulp 
     $ npm install
-  
+    
+## Deployment
+Run `$ gulp`  for the production ready code in deploy.
+
 href para crear slideshow con angular
 
 http://www.nganimate.org/angularjs/ng-switch/slider-css3-transition-animation
