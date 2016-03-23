@@ -1,4 +1,5 @@
-## Package Manager
+## Package
++ `npm`
 
 
 href para crear slideshow con angular
