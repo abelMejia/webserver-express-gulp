@@ -1,5 +1,5 @@
 ## Package
-+ `npm`
++ Uses gulp, npm and express
 
 
 href para crear slideshow con angular
