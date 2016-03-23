@@ -3,6 +3,7 @@
 
 ## Setup
     $ git clone 
+    $ npm install -g gulp 
     $ npm install
   
 href para crear slideshow con angular
